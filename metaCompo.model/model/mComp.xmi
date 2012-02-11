@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<metaCompo:mComp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metaCompo="http://metaCompo/1.0" xsi:schemaLocation="http://metaCompo/1.0 ../../metaCompo/model/metaCompo.ecore" type="door" name="door">
+  <ports name="key" type="std_logic"/>
+  <ports name="lock" io="out" type="std_logic"/>
+  <FSMs name="main" initialState="//@FSMs.0/@states.0">
+    <states name="locked" incomingTransitions="//@FSMs.0/@states.1/@outgoingTransitions.0">
+      <outgoingTransitions name="unlocking" destination="//@FSMs.0/@states.1" triggerExp="key = '1'" guard="" action="lock &lt;= '0';" triggeringPort="//@ports.0"/>
+    </states>
+    <states name="unlocked" incomingTransitions="//@FSMs.0/@states.0/@outgoingTransitions.0">
+      <outgoingTransitions name="locking" destination="//@FSMs.0/@states.0" triggerExp="key = '0'" action="lock &lt;= '1';" triggeringPort="//@ports.0"/>
+    </states>
+  </FSMs>
+</metaCompo:mComp>

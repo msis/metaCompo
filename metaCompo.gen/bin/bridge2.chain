@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<chain:Chain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:chain="http://www.obeo.fr/acceleo/chain">
+  <repository>
+    <files xsi:type="chain:Model" path="/metaCompo.model/model/bridge2.xmi"/>
+    <files xsi:type="chain:Folder" path="/metaCompo.model/generated"/>
+    <files xsi:type="chain:Log" path="/metaCompo.gen/src/bridge2.log.txt"/>
+    <files xsi:type="chain:EmfMetamodel" path="/metaCompo/model/metaCompo.ecore"/>
+    <files xsi:type="chain:Generator" path="/metaCompo.gen/src/vhdl.mt"/>
+  </repository>
+  <actions>
+    <actions xsi:type="chain:Generate" documentation="vhdl" log="//@repository/@files.2" model="//@repository/@files.0" metamodel="//@repository/@files.3" generator="//@repository/@files.4" folder="//@repository/@files.1"/>
+  </actions>
+</chain:Chain>

@@ -1,0 +1,29 @@
+
+-> Erreurs dans le fichier .vhd.
+Position 53 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 11, colonne : 9, pour l'objet : fragment=/ fichier=/resource/metaComp.model/model/mComp.xmi
+Position 141 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 14, colonne : 6, pour l'objet : fragment=/ fichier=/resource/metaComp.model/model/mComp.xmi
+Position 164 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 16, colonne : 22, pour l'objet : fragment=/ fichier=/resource/metaComp.model/model/mComp.xmi
+Position 769 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 59, colonne : 10, pour l'objet : fragment=//@FSMs.0/@states.1/@outgoingTransitions.0 fichier=/resource/metaComp.model/model/mComp.xmi
+
+
+-> Erreurs dans le fichier door.vhd.
+Position 781 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 59, colonne : 10, pour l'objet : fragment=//@FSMs.0/@states.1/@outgoingTransitions.0 fichier=/resource/metaComp.model/model/mComp.xmi
+
+
+-> Erreurs dans le fichier door.vhd.
+Position 758 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 59, colonne : 10, pour l'objet : fragment=//@FSMs.0/@states.1/@outgoingTransitions.0 fichier=/resource/metaComp.model/model/mComp.xmi
+
+
+-> Erreurs dans le fichier door.vhd.
+Position 278 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 31, colonne : 46, pour l'objet : fragment=//@FSMs.0 fichier=/resource/metaComp.model/model/mComp.xmi
+
+
+-> Erreurs dans le fichier door.vhd.
+Position 207 : EVAL : Attribut ou méthode "i" introuvable., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 30, colonne : 59, pour l'objet : fragment=//@FSMs.0 fichier=/resource/metaComp.model/model/mComp.xmi
+Position 218 : EVAL : Attribut ou méthode "i" introuvable., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 30, colonne : 59, pour l'objet : fragment=//@FSMs.0 fichier=/resource/metaComp.model/model/mComp.xmi
+Position 281 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 31, colonne : 57, pour l'objet : fragment=//@FSMs.0 fichier=/resource/metaComp.model/model/mComp.xmi
+
+
+-> Erreurs dans le fichier door.vhd.
+Position 273 : EVAL : Évaluation d'une propriété inexistante ou vide., dans le fichier : /metaComp.gen/src/vhdl.mt, à la ligne : 31, colonne : 57, pour l'objet : fragment=//@FSMs.0 fichier=/resource/metaComp.model/model/mComp.xmi
+

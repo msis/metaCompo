@@ -1,0 +1,16 @@
+------------------------
+#######-METACOMPO-#######
+------------------------
+
+Introduction
+------------
+metaCompo is a metamodeling project that allows people to create models of components with FSMs. It also allows to generate the code automatically in several languages.
+
+Requirements
+------------
+To use metaCompo, you'll need to have Eclipse Modeling Framework (EMF) and the acceleo plugins.
+A youtube video (raw and not edited yet) is availble here : http://www.youtube.com/watch?v=Wp22cuPmP2o . Another one, shorter and with comments, will be released soon.
+
+Examples
+--------
+Please find a VHDL conversion script in /metaCompo.gen and two examples of models in metaCompo.model

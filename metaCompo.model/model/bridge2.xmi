@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<metaCompo:mComp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metaCompo="http://metaCompo/1.0" xsi:schemaLocation="http://metaCompo/1.0 ../../metaCompo/model/metaCompo.ecore" type="bridge" name="bridge">
+  <subComps type="registers" name="SREG_1">
+    <ports name="clk" type="std_logic" connectedTo="//@ports.0"/>
+    <ports name="rst" type="std_logic" connectedTo="//@ports.1"/>
+    <ports name="ld" type="std_logic" connToVar="//@compVar.1"/>
+    <ports name="reg_in" type="std_logic_vector(n-1 downto 0)" connectedTo="//@ports.3"/>
+    <ports name="reg_out" io="out" type="std_logic_vector(n-1 downto 0)" connToVar="//@compVar.3"/>
+  </subComps>
+  <subComps type="registers" name="SREG_2">
+    <ports name="clk" type="std_logic" connectedTo="//@ports.0"/>
+    <ports name="rst" type="std_logic" connectedTo="//@ports.1"/>
+    <ports name="ld" type="std_logic" connToVar="//@compVar.0"/>
+    <ports name="reg_in" type="std_logic_vector(n-1 downto 0)" connectedTo="//@ports.3"/>
+    <ports name="reg_out" io="out" type="std_logic_vector(n-1 downto 0)" connToVar="//@compVar.3"/>
+  </subComps>
+  <subComps type="registers" name="BREG">
+    <ports name="clk" type="std_logic" connectedTo="//@ports.0"/>
+    <ports name="rst" type="std_logic" connectedTo="//@ports.1"/>
+    <ports name="ld" type="std_logic" connToVar="//@compVar.2"/>
+    <ports name="reg_in" type="std_logic_vector(n-1 downto 0)" connToVar="//@compVar.3"/>
+    <ports name="reg_out" io="out" type="std_logic_vector(n-1 downto 0)" connectedTo="//@ports.5"/>
+  </subComps>
+  <subComps type="controller" name="CTRL">
+    <ports name="ctrl_clk" type="std_logic" connectedTo="//@ports.0"/>
+    <ports name="ctrl_rst" type="std_logic" connectedTo="//@ports.1"/>
+    <ports name="sig_in" type="std_logic" connectedTo="//@ports.2"/>
+    <ports name="data_lo_ld" io="out" type="std_logic" connToVar="//@compVar.0"/>
+    <ports name="data_hi_ld" io="out" type="std_logic" connToVar="//@compVar.1"/>
+    <ports name="data_out_ld" io="out" type="std_logic" connToVar="//@compVar.2"/>
+    <ports name="sig_out" io="out" type="std_logic" connectedTo="//@ports.4"/>
+  </subComps>
+  <ports name="clock" type="std_logic"/>
+  <ports name="reset" type="std_logic"/>
+  <ports name="rdy_in" type="std_logic"/>
+  <ports name="data_in" type="std_logic_vector(3 downto 0)"/>
+  <ports name="rdy_out" io="out" type="std_logic"/>
+  <ports name="data_out" io="out" type="std_logic_vector(7 downto 0)"/>
+  <compVar name="wire0" type="std_logic"/>
+  <compVar name="wire1" type="std_logic"/>
+  <compVar name="wire2" type="std_logic"/>
+  <compVar name="connection" type="std_logic_vector(7 downto 0)"/>
+</metaCompo:mComp>
